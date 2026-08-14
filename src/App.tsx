@@ -4,6 +4,7 @@ import { Navbar } from './components/Navbar';
 import { Hero } from './components/Hero';
 import { TrustBar } from './components/TrustBar';
 import { AboutSection } from './components/AboutSection';
+import { SchoolGrowthSection } from './components/SchoolGrowthSection';
 import { ProgramsSection } from './components/ProgramsSection';
 import { WhyChooseUs } from './components/WhyChooseUs';
 import { LifeAtKJS } from './components/LifeAtKJS';
@@ -71,6 +72,9 @@ export default function App() {
           onRegisterClick={() => handleRegisterClick()}
           onOpenTour={() => setTourModalOpen(true)}
         />
+
+        {/* Evidence-led community growth */}
+        <SchoolGrowthSection />
 
         {/* 4. What We Offer (ECD with Red Badge & Primary Classes with Teal Badge) */}
         <ProgramsSection
