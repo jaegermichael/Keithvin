@@ -1,0 +1,6 @@
+{
+  "name": "Keithvin Junior School",
+  "description": "Official website for Keithvin Junior School (KJS) - Nurturing Little Champions. ECD and Primary school admissions, academics, school life gallery, and student registration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
